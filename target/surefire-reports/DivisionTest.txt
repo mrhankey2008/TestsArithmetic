@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: DivisionTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in DivisionTest
+divisionTest[1](DivisionTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: operand1, operand2, has an incorrect format
+	at DivisionTest.divisionTest(DivisionTest.java:85)
+

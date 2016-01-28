@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: DifferenceTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.905 sec <<< FAILURE! - in DifferenceTest
+differenceTest[0](DifferenceTest)  Time elapsed: 0.413 sec  <<< ERROR!
+java.lang.Exception: operand1, operand2, has an incorrect format
+	at DifferenceTest.differenceTest(DifferenceTest.java:91)
+
+differenceTest[2](DifferenceTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.Exception: operand1, operand2, has an incorrect format
+	at DifferenceTest.differenceTest(DifferenceTest.java:91)
+
+differenceTest[3](DifferenceTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.Exception: operand1, operand2, has an incorrect format
+	at DifferenceTest.differenceTest(DifferenceTest.java:91)
+
+differenceTest[4](DifferenceTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.Exception: Incorrect input arithmetic operation
+	at DifferenceTest.differenceTest(DifferenceTest.java:95)
+
+differenceTest[5](DifferenceTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.Exception: Incorrect input arithmetic operation
+	at DifferenceTest.differenceTest(DifferenceTest.java:95)
+
+differenceTest[6](DifferenceTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.Exception: expected, has an incorrect format
+	at DifferenceTest.differenceTest(DifferenceTest.java:91)
+
+differenceTest[7](DifferenceTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.Exception: Incorrect input arithmetic operation
+	at DifferenceTest.differenceTest(DifferenceTest.java:95)
+

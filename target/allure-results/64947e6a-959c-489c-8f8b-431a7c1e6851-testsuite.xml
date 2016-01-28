@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1453997238775" stop="1453997239222" version="1.4.11" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>SumTest</name>
+    <test-cases>
+        <test-case start="1453997238776" stop="1453997238776" status="passed">
+            <name>sumTest[0]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC"/>
+                <label name="thread" value="6524@PC.main(1)"/>
+            </labels>
+            <parameters>
+                <parameter name="Operand1" value="8" kind="environment-variable"/>
+                <parameter name="Operand2" value="1" kind="environment-variable"/>
+                <parameter name="Operation" value="+" kind="environment-variable"/>
+                <parameter name="Result" value="9" kind="environment-variable"/>
+            </parameters>
+        </test-case>
+        <test-case start="1453997238781" stop="1453997238781" status="passed">
+            <name>sumTest[1]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC"/>
+                <label name="thread" value="6524@PC.main(1)"/>
+            </labels>
+            <parameters>
+                <parameter name="Operand1" value="1" kind="environment-variable"/>
+                <parameter name="Operand2" value="9" kind="environment-variable"/>
+                <parameter name="Operation" value="+" kind="environment-variable"/>
+                <parameter name="Result" value="10" kind="environment-variable"/>
+            </parameters>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

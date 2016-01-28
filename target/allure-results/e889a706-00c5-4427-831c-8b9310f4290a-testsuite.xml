@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1453997238761" stop="1453997239150" version="1.4.11" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>MultiplyTest</name>
+    <test-cases>
+        <test-case start="1453997238762" stop="1453997238762" status="passed">
+            <name>multiplyTest[0]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="PC"/>
+                <label name="thread" value="6524@PC.main(1)"/>
+            </labels>
+            <parameters>
+                <parameter name="Operand1" value="4" kind="environment-variable"/>
+                <parameter name="Operand2" value="3" kind="environment-variable"/>
+                <parameter name="Operation" value="*" kind="environment-variable"/>
+                <parameter name="Result" value="12" kind="environment-variable"/>
+            </parameters>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
